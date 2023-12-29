@@ -1,0 +1,40 @@
+.border-simple{
+    width: 300px;
+    border-color: black;
+    border-style: dashed;
+    border-width: 4px;
+}
+
+.border{
+    margin-top: 10px;
+    width: 400px;
+    border-color: brown;
+    border-width: 10px;
+}
+
+
+/* different border styles */
+.border-1{
+    border-style: solid;
+}
+.border-2{
+    border-style: dashed;
+}
+.border-3{
+    border-style: dotted;
+}
+.border-4{
+    border-style: double;
+}
+.border-5{
+    border-style: groove;
+}
+.border-6{
+    border-style: ridge;
+}
+
+
+/* Border shorthand */
+.border-short{
+    border: 3px solid goldenrod;
+}

@@ -1,0 +1,23 @@
+/* all sides */
+div{
+    border: 2px solid black;
+}
+
+.padding-all {
+    padding: 100px;
+  }
+  
+  /* Top/Bottom || Right/Left */
+  .padding-two {
+    padding: 50px 300px;
+  }
+  
+  /* Top || Right/Left || Bottom*/
+  .padding-three {
+    padding: 120px 450px 80px;
+  }
+  
+  /* Top || Right|| Bottom || Left */
+  .padding-four {
+    padding: 20px 220px 80px 330px;
+  }

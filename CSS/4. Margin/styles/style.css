@@ -1,0 +1,23 @@
+/* all sides */
+div{
+  border: 2px solid black;
+}
+
+.margin-all {
+  margin: 100px;
+}
+
+/* Top/Bottom || Right/Left */
+.margin-two {
+  margin: 50px 300px;
+}
+
+/* Top || Right/Left || Bottom*/
+.margin-three {
+  margin: 120px 450px 80px;
+}
+
+/* Top || Right|| Bottom || Left */
+.margin-four {
+  margin: 20px 220px 80px 330px;
+}
