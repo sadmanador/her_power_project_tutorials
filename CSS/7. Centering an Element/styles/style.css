@@ -1,0 +1,12 @@
+.center{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.item{
+    background-color: olivedrab;
+    display: inline-block;
+    width: 220px;
+}
+
+
