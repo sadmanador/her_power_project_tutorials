@@ -1,0 +1,21 @@
+.text-1{
+    font-size: 20px;
+}
+.text-2{
+    font-weight: 900;
+}
+
+.text-3{
+    text-align: right;
+}
+.text-4{
+    text-align: center;
+}
+
+.text-box{
+    border: 3px solid black;
+    width: 200px;
+}
+.text-5{
+    text-align: justify;
+}

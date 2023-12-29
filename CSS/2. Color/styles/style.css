@@ -1,0 +1,15 @@
+.color-name{
+    color: crimson;
+}
+.color-hex{
+    color:  #14e661;
+}
+.color-rgb{
+    color: rgb(93, 20, 219);
+}
+.color-rgba{
+    color: rgba(20, 166, 219, 0.7);
+}
+.color-bg{
+    background-color: rgba(20, 166, 219, 0.7);
+}
