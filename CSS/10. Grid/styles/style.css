@@ -1,0 +1,99 @@
+.container {
+  background-color: bisque;
+  margin-bottom: 25px;
+}
+
+.item {
+  background-color: cadetblue;
+}
+
+.container-1{
+  display: grid;
+  grid-template-columns: 2fr 1fr 5fr 3fr;
+  gap: 20px;
+}
+
+.container-2 {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: auto auto auto;
+}
+
+.container-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  gap: 20px;
+  justify-content: center;
+}
+
+
+
+
+.container-4 {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+
+  gap: 20px;
+  justify-content: right;
+}
+
+.container-5 {
+  grid-template-columns: repeat(3, 100px);
+  display: grid;
+  gap: 20px;
+  justify-content: space-around;
+}
+.container-6 {
+  grid-template-columns: repeat(3, 100px);
+  display: grid;
+  gap: 20px;
+  justify-content: space-between;
+}
+.container-7 {
+  grid-template-columns: repeat(3, 100px);
+  display: grid;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+
+
+.container-8 {
+  grid-template-columns: repeat(3, 100px);
+  display: grid;
+  gap: 20px;
+  align-items: center;
+  height: 250px;
+}
+.container-9 {
+  grid-template-columns: repeat(3, 100px);
+  display: grid;
+  gap: 20px;
+  align-items: end;
+  height: 250px;
+}
+.container-10 {
+    width: 400px;
+    
+    grid-template-columns: repeat(3, 100px);
+    display: grid;
+  gap: 20px;
+  align-content: space-around;
+    height: 600px;
+}
+.container-11 {
+    width: 400px;
+    grid-template-columns: repeat(3, 100px);
+  display: grid;
+  gap: 20px;
+  align-content: space-between;
+    height: 600px;
+}
+.container-12 {
+    width: 400px;
+    grid-template-columns: repeat(3, 100px);
+  display: grid;
+  gap: 20px;
+  align-content: space-evenly;
+    height: 600px;
+}
+
