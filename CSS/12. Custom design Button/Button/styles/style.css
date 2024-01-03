@@ -1,0 +1,33 @@
+div{
+    margin: 20px;
+}
+.new-1{
+    border: none;
+    color: white;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 17px;
+    text-transform: uppercase;
+    background-color: rgb(237, 91, 42);
+}
+.new-1:hover{
+    color: black;
+    background-color: rgb(251, 34, 10);
+    box-shadow: 0px 0px 4px rgb(157, 16, 0);
+    cursor: pointer;
+}
+.new-1:active{
+    padding: 8px 12px;
+    font-size: 12px;
+}
+h1{
+    color: red;
+    text-shadow: 0px 0px 6px blue;
+}
+h1::selection{
+    color: yellow;
+}
+a:visited{
+    color: red;
+}

@@ -1,0 +1,15 @@
+.container{
+    width: 800px;
+    height: 350px;
+    background-color: blanchedalmond;
+    margin: 200px;
+}
+
+.box{
+    position: relative;
+    top: -50px;
+    left: -50px;
+    width: 100px;
+    height: 100px;
+    background-color: deeppink;
+}
